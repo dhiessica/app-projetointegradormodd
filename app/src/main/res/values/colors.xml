@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#212493</color>
+    <color name="colorPrimaryDark">#161861</color>
+    <color name="colorPrimaryLight">#4144C9</color>
+    <color name="colorAccent">#414141</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGrey">#828282</color>
+    <color name="colorLightConteinerBackground">#E9E9E9</color>
+    <color name="colorStatusPendenteBackground">#F9DD5F</color>
+    <color name="colorStatusPendenteText">#FF9052</color>
+    <color name="colorStatusConfirmadoBackground">#77D353</color>
+    <color name="colorStatusConfirmadoText">#1C790A</color>
+    <color name="colorTransparent">#00000000</color>
+
+</resources>

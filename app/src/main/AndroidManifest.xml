@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.projetointegradormodd">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo_final"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_logo_final_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".InicialActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DetalhesAgendamentoActivity" />
+        <activity android:name=".AgendarStep2Activity" />
+        <activity android:name=".AgendarStep1Activity" />
+        <activity android:name=".HomeTutorActivity" />
+        <activity android:name=".HomeLojaActivity" />
+        <activity android:name=".HomePetActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MenuPerfilTutorActivity"></activity>
+        <activity android:name=".DetalhesPedidoActivity" />
+        <activity android:name=".MenuPerfilPetActivity" />
+        <activity android:name=".CarrinhoActivity" />
+        <activity android:name=".DetalhesProdutoActivity" />
+        <activity android:name=".FormPerfilTutorActivity" />
+        <activity android:name=".FormAtividadeActivity" />
+        <activity android:name=".FormEnderecoActivity"/>
+        <activity android:name=".FormFormasPagamentoActivity"/>
+        <activity android:name=".FormPerfilPetActivity"/>
+    </application>
+
+</manifest>

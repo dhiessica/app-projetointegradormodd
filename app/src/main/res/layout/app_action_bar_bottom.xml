@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/colorWhite"
+    android:layout_height="wrap_content">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorGrey" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/image_button_home_pet_action_bar"
+            android:src="@drawable/icon_pet_preto"
+            android:scaleType="fitCenter"
+            android:padding="12dp"
+            android:backgroundTint="@android:color/transparent"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="55dp"/>
+
+        <ImageButton
+            android:id="@+id/image_button_home_loja_action_bar"
+            android:src="@drawable/icon_carrinho_preto"
+            android:layout_weight="1"
+            android:padding="12dp"
+            android:backgroundTint="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:layout_width="0dp"
+            android:layout_height="55dp"/>
+
+        <ImageButton
+            android:id="@+id/image_button_home_tutor_action_bar"
+            android:src="@drawable/icon_usuario_preto"
+            android:scaleType="fitCenter"
+            android:layout_weight="1"
+            android:padding="12dp"
+            android:backgroundTint="@android:color/transparent"
+            android:layout_width="0dp"
+            android:layout_height="55dp"/>
+    </LinearLayout>
+
+</LinearLayout>

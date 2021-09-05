@@ -1,0 +1,186 @@
+<resources>
+    <string name="app_name">Petly</string>
+
+    <!--BUTTONS -->
+    <string name="button_cadastrar">CADASTRAR</string>
+    <string name="button_entrar">ENTRAR</string>
+    <string name="button_continuar">CONFIRMAR</string>
+    <string name="button_salvar">SALVAR</string>
+    <string name="button_solicitar_agendamento">SOLICITAR AGENDAMENTO</string>
+    <string name="button_detalhes">DETALHES</string>
+    <string name="button_carrinho">ADICIONAR AO CARRINHO</string>
+    <string name="button_finalizar_compra">FINALIZAR COMPRA</string>
+    <string name="button_adicionar_pet">ADICIONAR PET</string>
+
+    <!--HINT -->
+    <string name="hint_nome">Nome completo</string>
+    <string name="hint_telefone">Telefone</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_senha">Senha</string>
+    <string name="hint_confirmar_senha">Confirmar senha</string>
+    <string name="hint_titulo_atividade">Titulo da atividade</string>
+    <string name="hint_observacao">Observação</string>
+    <string name="hint_selecione">Selecione</string>
+    <string name="hint_pendente">Pendente</string>
+    <string name="hint_confirmado">Confirmado</string>
+    <string name="hint_sem_registros">Ops! Acho que você ainda não possuí registros!</string>
+    <string name="hint_numero_cartao">Número do cartão</string>
+    <string name="hint_validade">Validade</string>
+    <string name="hint_cvv">CVV</string>
+    <string name="hint_nome_titular">Nome do titular</string>
+    <string name="hint_cpf_titular">CPF do titular</string>
+    <string name="hint_nome_rua">Nome da rua ou avenida</string>
+    <string name="hint_cep">CPF</string>
+    <string name="hint_numero">Número</string>
+    <string name="hint_cidade">Cidade</string>
+    <string name="hint_ponto_referencia">Ponto de referência (Opcional)</string>
+    <string name="hint_nome_pet">Nome do pet</string>
+    <string name="hint_data_nascimento">Data de nascimento</string>
+    <string name="hint_raca">Raça</string>
+    <string name="hint_cor">Cor</string>
+    <string name="hint_peso">Peso</string>
+    <string name="hint_obs">Observação (Opcional)</string>
+
+    <!--VALORES FIXOS-->
+    <string name="variable_endereco_loja">Av. Primeiro de Maio, 1778, Xaxim - Curitiba - PR</string>
+    <string name="variable_valor_busca_entrega">7.00</string>
+    <string name="variable_compra_anteriores_title">Pedido Entregue</string>
+    <string name="variable_transporte_contratado">Serviço adicional contratado</string>
+    <string name="variable_transporte_nao_contratado">Endereço da Loja</string>
+    <string name="variable_especie_cachorro">Cachorro</string>
+    <string name="variable_especie_gato">Gato</string>
+    <string name="loja_id">LOJAIDTESTE</string>
+
+
+    <!--LONG TEXT VIEW -->
+    <string name="text_agendamento_alerta_1">
+        Determinados serviços podem sofrer alterações no valor caso alguma especificação do pet não bata com o informado.
+    </string>
+    <string name="text_agendamento_alerta_2">
+        Caso opte por não incluir esse serviço, o endereço da loja será informado para que leve o pet no dia e data agendado.
+    </string>
+    <string name="text_modal_pet_alerta">
+        Você tem certeza que deseja excluir o perfil do pet
+    </string>
+    <string name="text_modal_atividade_alerta">
+        Você tem certeza que deseja excluir a atividade
+    </string>
+
+    <!-- TOAST -->
+    <string name="toast_exclui_pet_ok">Pet excluído com sucesso!</string>
+    <string name="toast_exclui_pet_notok">Ops! Tivemos algum problema ao tentar excluir esse pet.</string>
+    <string name="toast_exclui_atividade_ok">Atividade excluida com sucesso!</string>
+    <string name="toast_exclui_atividade_notok">Ops! Tivemos algum problema ao tentar excluir essa atividade.</string>
+    <string name="toast_cria_atividade_ok">Atividade criada com sucesso!</string>
+    <string name="toast_cria_atividade_notok">Ops! Tivemos algum problema ao tentar criar sua atividade.</string>
+    <string name="toast_update_atividade_ok">Atividade atualizada com sucesso!</string>
+    <string name="toast_update_atividade_notok">Ops! Tivemos algum problema ao tentar atualizar essa atividade.</string>
+    <string name="toast_cria_pedido_ok">Pedido enviado com sucesso!</string>
+    <string name="toast_cria_pedido_notok">Ops! Tivemos algum problema ao tentar enviar seu pedido.</string>
+    <string name="toast_cria_agendamento_ok">Agendamento solicitado com sucesso!</string>
+    <string name="toast_cria_agendamento_notok">Ops! Tivemos algum problema ao tentar solicitar seu agendamento.</string>
+    <string name="toast_update_tutor_ok">Seus dados foram atualizados com sucesso!</string>
+    <string name="toast_update_tutor_notok">Ops! Tivemos algum problema ao tentar atualizar seus dados.</string>
+    <string name="toast_update_forma_pagamento_ok">Sua forma de pagamento foi atualizada com sucesso!</string>
+    <string name="toast_update_forma_pagamento_notok">Ops! Tivemos algum problema ao tentar atualizar sua forma de pagamento.</string>
+    <string name="toast_update_endereco_ok">Seu endereço foi atualizado com sucesso!</string>
+    <string name="toast_update_endereco_notok">Ops! Tivemos algum problema ao tentar atualizar seu endereço.</string>
+
+
+    <!-- SPINNERS -->
+    <string-array name="spinner_atividade_categoria">
+        <item>Selecione</item>
+        <item>Bem-estar</item>
+        <item>Educação</item>
+        <item>Entretenimento</item>
+        <item>Estética</item>
+        <item>Saúde</item>
+    </string-array>
+
+    <string-array name="spinner_estado_form_endereco">
+        <item>Selecione</item>
+        <item>AC</item>
+        <item>AL</item>
+        <item>AP</item>
+        <item>AM</item>
+        <item>BA</item>
+        <item>CE</item>
+        <item>DF</item>
+        <item>ES</item>
+        <item>GO</item>
+        <item>MA</item>
+        <item>MT</item>
+        <item>MS</item>
+        <item>MG</item>
+        <item>PA</item>
+        <item>PB</item>
+        <item>PR</item>
+        <item>PE</item>
+        <item>PI</item>
+        <item>RJ</item>
+        <item>RN</item>
+        <item>RS</item>
+        <item>RO</item>
+        <item>RR</item>
+        <item>SC</item>
+        <item>SP</item>
+        <item>SE</item>
+        <item>TO</item>
+    </string-array>
+
+    <string-array name="spinner_especie_form_criar_pet">
+        <item>Selecione</item>
+        <item>Cachorro</item>
+        <item>Gato</item>
+    </string-array>
+
+    <string-array name="spinner_genero_form_criar_pet">
+        <item>Selecione</item>
+        <item>Fêmea</item>
+        <item>Macho</item>
+    </string-array>
+
+    <string-array name="spinner_pelagem_form_criar_pet">
+        <item>Selecione</item>
+        <item>Curta</item>
+        <item>Média</item>
+        <item>Longa</item>
+    </string-array>
+
+    <string-array name="spinner_porte_form_criar_pet">
+        <item>Selecione</item>
+        <item>Pequeno</item>
+        <item>Médio</item>
+        <item>Grande</item>
+    </string-array>
+
+    <!-- ACTIONS -->
+    <string name="nome_tela_criar_atividade">CRIAR ATIVIDADE</string>
+    <string name="nome_tela_editar_endereco">EDITAR ENDEREÇO</string>
+    <string name="nome_tela_editar_atividade">EDITAR ATIVIDADE</string>
+    <string name="nome_tela_agendar_serviço">AGENDAR SERVIÇO</string>
+    <string name="nome_tela_detalhes_agendamento">DETALHES AGENDAMENTO</string>
+    <string name="nome_tela_detalhes_pedido">DETALHES PEDIDO</string>
+    <string name="nome_tela_home_loja">LOJA</string>
+    <string name="nome_tela_home_tutor">HOME TUTOR</string>
+    <string name="nome_tela_home_pet">HOME PET</string>
+    <string name="nome_tela_home_produto">DETALHES DO PRODUTO</string>
+    <string name="nome_tela_carrinho">FINALIZAR COMPRA</string>
+    <string name="nome_tela_meus_pets">MEUS PETS</string>
+    <string name="nome_tela_forma_pagamento">FORMA DE PAGAMENTO</string>
+    <string name="nome_tela_endereco">ENDEREÇO</string>
+    <string name="action_solicitar_agendamento">SOLICITAR AGENDAMENTO</string>
+    <string name="action_visualizar_agendamento">VISUALIZAR AGENDAMENTO</string>
+    <string name="action_enviar_pedido">ENVIAR PEDIDO</string>
+    <string name="action_visualizar_pedido">VISUALIZAR PEDIDO</string>
+    <string name="action_cadastro_perfil_tutor">CADASTRO</string>
+    <string name="action_editar_perfil_tutor">EDITAR MEUS DADOS</string>
+    <string name="action_cadastro_perfil_pet">CADASTRAR PET</string>
+    <string name="action_editar_perfil_pet">EDITAR DADOS DO PET</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_search">Search</string>
+
+
+</resources>

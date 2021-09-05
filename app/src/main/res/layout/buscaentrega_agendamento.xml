@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/textend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Serviço opcional contratado"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_view_buscaentrega_agendamento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Serviço"
+        android:textColor="@color/colorBlack" />
+
+    <View
+        android:id="@+id/separator_buscaentrega_agendamento"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/colorGrey"
+        android:layout_marginTop="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Total serviço de busca e entrega"
+            android:textColor="@color/colorBlack" />
+
+        <TextView
+            android:id="@+id/text_view_valor_delivery_pet_buscaentrega_agendamento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:gravity="right"
+            android:text="R$ 00,00"
+            android:textColor="@color/colorBlack"/>
+    </LinearLayout>
+
+</LinearLayout>

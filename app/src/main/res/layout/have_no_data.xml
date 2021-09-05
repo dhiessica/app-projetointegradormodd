@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:id="@+id/container_no_data"
+    android:visibility="visible"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:tint="@color/colorGrey"
+        android:src="@drawable/ic_baseline_mood_bad_24" />
+    <TextView
+        android:id="@+id/text_no_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ops! Você ainda não possui dados!"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+</LinearLayout>
